@@ -1,0 +1,39 @@
+Page segmentation modes:
+
+1. Orientation and script detection (OSD) only.
+
+2. Automatic page segmentation with OSD.
+
+3. Automatic page segmentation, but no OSD, or OCR. (not implemented)
+
+4. Fully automatic page segmentation, but no OSD. (Default)
+
+5. Assume a single column of text of variable sizes.
+
+6. Assume a single uniform block of vertically aligned text.
+
+7. Assume a single uniform block of text.
+
+8. Treat the image as a single text line.
+
+9. Treat the image as a single word.
+
+10. Treat the image as a single word in a circle.
+
+11. Treat the image as a single character.
+
+12. Sparse text. Find as much text as possible in no particular order.
+
+13. Sparse text with OSD.
+
+14. Raw line. Treat the image as a single text line, bypassing hacks that are Tesseract-specific.
+
+OCR Engine modes:
+
+1. Legacy engine only.
+2. Neural nets LSTM engine only.
+3. Legacy + LSTM engines.
+4. Default, based on what is available.
+
+
+example: r"--psm 10 --oem 3"

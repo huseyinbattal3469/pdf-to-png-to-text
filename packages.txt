@@ -1,0 +1,12 @@
+pip install pdf2image
+    https://github.com/oschwartz10612/poppler-windows/releases/
+    https://www.geeksforgeeks.org/convert-pdf-to-image-using-python/
+
+pip install opencv-python
+
+pip install opencv-contrib-python
+
+pip install Pillow
+
+pip install pytesseract
+    https://github.com/UB-Mannheim/tesseract/wiki
