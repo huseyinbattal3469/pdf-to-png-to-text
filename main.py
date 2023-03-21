@@ -81,6 +81,7 @@ for pdf in pdfs_path:
         cv2.imwrite(f"images/withboxes{n}.jpg",image) 
 
         img_strings = tsr.image_to_string(cv2.imread(f"images/cropped_image{n}.jpg"),"tur")
+        pdf = pdf.replace(".pdf","")
         with open(f"{pdf}.txt","a",encoding="utf-8") as f:
             f.write(img_strings)
 
