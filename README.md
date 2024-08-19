@@ -67,4 +67,4 @@ To run this project, you'll need to set up the necessary Python environment and 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
