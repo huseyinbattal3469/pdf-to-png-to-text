@@ -7,7 +7,6 @@ This project uses Tesseract OCR to extract text from PDF files. The code process
 - [Installation](#installation)
 - [Usage](#usage)
 - [Files](#files)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
