@@ -23,15 +23,15 @@ To run this project, you'll need to set up the necessary Python environment and 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/huseyinbattal3469/pdf-to-png-to-text.git
+    cd pdf-to-png-to-text
     ```
 
 2. **Install the required packages**:
-    You can install the required Python packages using `pip`:
+    You can install the required Python packages inside:
 
     ```bash
-    pip install -r packages.txt
+    packages.txt
     ```
 
 3. **Install Tesseract**:
@@ -46,7 +46,7 @@ To run this project, you'll need to set up the necessary Python environment and 
    Execute the script to process the PDFs and extract the text:
 
    ```bash
-   python script_name.py
+   python main.py
    ```
 
    The script will perform the following steps:
@@ -64,10 +64,6 @@ To run this project, you'll need to set up the necessary Python environment and 
 - **packages.txt**: Contains a list of required Python packages.
 - **images folder**: Stores the processed images, including grayscale, blurred, thresholded, dilated, and cropped images.
 - **pdfs folder**: Stores the input PDF files.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, please fork the repository and submit a pull request.
 
 ## License
 
